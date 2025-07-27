@@ -1,0 +1,26 @@
+#!/bin/bash
+# GitHub 저장소와 연결하는 스크립트
+# 사용법: GitHub에서 저장소 생성 후 URL을 입력하세요
+
+echo "==================================================="
+echo "🚀 DL_Test GitHub 저장소 연결 스크립트"
+echo "==================================================="
+echo ""
+echo "📋 GitHub 저장소 URL을 입력하세요:"
+echo "예: https://github.com/username/DL_Test.git"
+echo ""
+echo "아래 명령어를 순서대로 실행하세요:"
+echo ""
+echo "1️⃣ GitHub 저장소와 연결:"
+echo "git remote add origin [YOUR_GITHUB_URL]"
+echo ""
+echo "2️⃣ main 브랜치로 푸시:"
+echo "git branch -M main"
+echo "git push -u origin main"
+echo ""
+echo "==================================================="
+echo ""
+echo "💡 예시 (실제 URL로 교체하세요):"
+echo "git remote add origin https://github.com/username/DL_Test.git"
+echo "git branch -M main" 
+echo "git push -u origin main"
