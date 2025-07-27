@@ -7,8 +7,8 @@
 # 홈 디렉토리로 이동
 cd ~
 
-# GitHub에서 클론 (실제 URL로 교체)
-git clone https://github.com/username/DL_Test.git
+# GitHub에서 클론
+git clone https://github.com/IAECHLee/DL_Test.git
 cd DL_Test
 ```
 
